@@ -3,7 +3,7 @@ import { Alert, FlatList, Keyboard, StyleSheet, Text, TouchableWithoutFeedback, 
 import Header from './components/Header';
 import ToDoItem from './components/ToDoItem';
 import AddToDo from './components/AddToDo';
-import SandBox from './components/SandBox';
+// import SandBox from './components/SandBox';
 
 export default function App() {
   const [todos, setTodos] = useState([
@@ -66,12 +66,11 @@ const styles = StyleSheet.create({
   },
   content: {
     padding:40,
-    backgroundColor: 'pink',
+    backgroundColor: 'lightblue',
     flex: 1,
   },
   list: {
     marginTop: 20,
-    backgroundColor: 'yellow',
     flex: 1,
   },
 });
